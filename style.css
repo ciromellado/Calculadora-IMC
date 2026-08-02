@@ -1,0 +1,170 @@
+/* --- Reset y Estilos Generales --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* --- Contenedor Principal --- */
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* --- Tipografía --- */
+h1 {
+    font-size: 1.6rem;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+/* --- Tarjeta y Formularios --- */
+.card {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* --- Botones --- */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.secondary-btn {
+    background-color: #e5e7eb;
+    color: #374151;
+    margin-top: 15px;
+}
+
+.secondary-btn:hover {
+    background-color: #d1d5db;
+}
+
+.reset-btn {
+    background-color: #4b5563;
+    margin-top: 15px;
+}
+
+.reset-btn:hover {
+    background-color: #374151;
+}
+
+/* --- Sección de Resultados --- */
+#resultContainer {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+#resultContainer h2 {
+    font-size: 1.2rem;
+    color: #374151;
+    margin-bottom: 10px;
+}
+
+#bmiValue {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+#bmiCategory {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.detail-text {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+/* --- Utilidades --- */
+.hidden {
+    display: none !important;
+}
+
+.error-text {
+    font-size: 0.85rem;
+    color: #dc2626;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* --- Imagen de cabecera en la app --- */
+#appScreen img {
+    margin: 0 auto 10px auto;
+    display: block;
+}
